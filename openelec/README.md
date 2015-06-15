@@ -3,6 +3,7 @@ openelec
 
 Plugin for https://github.com/ERPXE/tftpboot
 
+```bash
 export ISODIR=/tmp/iso
 export ERPXEDIR=/tftpboot
 mkdir -p $ISODIR
@@ -14,3 +15,4 @@ mv /tmp/OpenELEC-Generic.x86_64-5.0.8/splash.png $ERPXEDIR/er/plugins/openelec/o
 mv /tmp/OpenELEC-Generic.x86_64-5.0.8/target/SYSTEM $ERPXEDIR/er/shares/openelec/
 mv /tmp/OpenELEC-Generic.x86_64-5.0.8/target/KERNEL $ERPXEDIR/er/plugins/openelec/
 $ERPXEDIR/bin/replace_nfsroot_ip.sh
+bash
