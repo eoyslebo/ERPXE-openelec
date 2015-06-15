@@ -1,0 +1,8 @@
+LABEL OPENELEC
+MENU LABEL ^OpenELEC
+KERNEL er/plugins/openelec/KERNEL
+APPEND boot=NFS=10.0.0.1:/tftpboot/er/shares/openelec disk=NFS=10.0.0.1:/tftpboot/er/shares/openelec/storage overlay
+
+TEXT HELP
+                 Openelec
+ENDTEXT

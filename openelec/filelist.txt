@@ -1,0 +1,6 @@
+.:
+openelec.menu
+openelec.png
+filelist.txt
+KERNEL
+SYSTEM

@@ -1,0 +1,10 @@
+MENU BEGIN OpenELEC
+MENU TITLE OpenELEC
+MENU LABEL ^OpenELEC
+MENU BACKGROUND er/plugins/openelec/openelec.png
+
+MENU INCLUDE er/plugins/openelec/openelecmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END
